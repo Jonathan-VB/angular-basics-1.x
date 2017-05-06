@@ -47,3 +47,20 @@
 
 5Q:   `ng-click` can only be used on `<button>` or `<a>` tags.
 5A:   False.
+
+
+// ng-model and ng-click
+1Q:   Two-way data binding is where application logic and data come together at a single point and are never updated.
+1A:   False.
+
+2Q:   The `ng-model` directive is used on which of the following elements:
+2A:   <input>
+
+3Q:   Angular is special because of:
+3A:   two way data binding.
+
+4Q:   The syntax for injecting the $scope.todo.name variable's value into the body of an html tag is _______. For example, `__________`.
+4A:   {{todo.name}}
+
+5Q:   The ng-model directive is set equal to the _______ variable with the same name. For instance, `todo.name` is equal to `________.todo.name`.
+5A:   $scope
