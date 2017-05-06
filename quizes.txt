@@ -30,3 +30,20 @@
 
 5Q:   Controllers are able to do which of the following:
 5A:   Control the state of the application. Handle data. Make changes to the UI.
+
+
+// Understanding Scope in Angular
+1Q:   If a parent scope and a child scope both have a function called "helloWorld" (e.g. $scope.helloWorld is defined in the controller)
+1A:   the `helloWorld` function in the child scope will overwrite the `helloWorld` function from the parent scope within the child scope.
+
+2Q:   $scope in Angular is super easy to understand.
+2A:   False.
+
+3Q:   Parent $scopes can share functions and values with their children.
+3A:   True.
+
+4Q:   Values and functions created on the $rootScope are
+4A:   available in all child scopes
+
+5Q:   `ng-click` can only be used on `<button>` or `<a>` tags.
+5A:   False.
