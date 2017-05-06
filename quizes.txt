@@ -1,0 +1,15 @@
+// Angular Nuts & Bolts
+1Q:   Angular applications cannot make additional requests to the server, after the initial application loads in the client.
+1A:   False.
+
+2Q:   Both directives and controllers have access to $scope.
+2A:   True.
+
+3Q:   Angular renders templates on a server like Express , Django, and Rails.
+3A:   False.
+
+4Q:   Which of the following are not Angular components: templates, directives, collections or controllers?
+4A:   Collections.
+
+5Q:   Angular is super, really, especially easy to learn.
+5A:   False.
