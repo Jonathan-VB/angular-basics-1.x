@@ -13,3 +13,20 @@
 
 5Q:   Angular is super, really, especially easy to learn.
 5A:   False.
+
+
+// Creating a controller
+1Q:   A common naming convention for controllers is the controller name, followed by c-t-r-l. For example, "awesomeFeaturesCtrl."
+1A:   True.
+
+2Q:   "Injecting" a controller into your application is like saying, __________.
+2A:   "Hey, this is where I want my controller to be used.".
+
+3Q:   $scope is like the area of operation for a controller.
+3A:   True.
+
+4Q:   Controllers can use functions from sibling $scopes.
+4A:   False.
+
+5Q:   Controllers are able to do which of the following:
+5A:   Control the state of the application. Handle data. Make changes to the UI.
