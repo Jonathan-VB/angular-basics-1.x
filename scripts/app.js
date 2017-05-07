@@ -1,6 +1,9 @@
 // module(Name of Application, Empty Array(Defines dependencies)).
 angular.module("todoListApp", [])
-.controller('mainCtrl', function($scope) {
+.controller('mainCtrl', function($scope, dataService) {
+
+  $scope.helloConsole = dataService.helloConsole;
+
   $scope.learningNgChange = function() {
     console.log("An input changed!");
   };
@@ -14,4 +17,11 @@ angular.module("todoListApp", [])
     {"name": "Swim"}
   ];
 
-}); // end controller
+}) // end controller
+
+// Method chaining
+.service('dataService', function() {
+  this.helloConsole = function() {
+    console.log("This is the hello console service!");
+  }
+});
