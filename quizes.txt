@@ -81,3 +81,22 @@
 
 5Q:   In the following directive, `<div ng-repeat="foo in foobar">` you can access "foo" for each element in the iterable however, you cannot access properties of foo. (e.g. `foo.title`, `foo.anyProp`, etc.)
 5A:   False.
+
+
+// What are Services?
+1Q:   The pattern of writing functions one after another, for example `foo().bar().hello().goodbye()` is called:
+1A:   method chaining.
+
+2Q:   The following are examples of things a service should do:
+2A:   Contain data about a logged in user and communicate with a REST API.
+
+3Q:   Within the body of a service's callback function, for example: `...service('someService, function() {
+        //inside here!
+      })`, the `this` keyword refers to:
+3A:   The service itself.
+
+4Q:   A service's methods can be invoked:
+4A:   by controllers, by directives and by other services.
+
+5Q:   Services can be used to share data between different controllers.
+5A:   True.
