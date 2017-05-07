@@ -64,3 +64,20 @@
 
 5Q:   The ng-model directive is set equal to the _______ variable with the same name. For instance, `todo.name` is equal to `________.todo.name`.
 5A:   $scope
+
+
+// ng-repeat, ng-class & ng-blur
+1Q:   In the following directive, `<div ng-repeat='foo in foobar">`, foobar is ________.
+1A:   An iterable.
+
+2Q:   The JavaScript 'blur' event fires when an input ________.
+2A:   Loses focus.
+
+3Q:   Every element of the ng-repeat directive has it's own $scope.
+3A:   True.
+
+4Q:   The ng-class directive ________.
+4A:   can evaluate functions to apply css classes, can evaluate variables to apply css classes and can apply multiple css classes.
+
+5Q:   In the following directive, `<div ng-repeat="foo in foobar">` you can access "foo" for each element in the iterable however, you cannot access properties of foo. (e.g. `foo.title`, `foo.anyProp`, etc.)
+5A:   False.
