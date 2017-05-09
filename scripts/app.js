@@ -22,8 +22,9 @@ angular.module("todoListApp", [])
     dataService.saveTodo(todo);
   };
 
-  $scope.learningNgChange = function() {
-    console.log("An input changed!");
+  $scope.addTodo = function() {
+    var todo = {name: "This is a new todo."};
+    $scope.todos.push(todo);
   };
 }) // end controller
 
