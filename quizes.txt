@@ -100,3 +100,20 @@
 
 5Q:   Services can be used to share data between different controllers.
 5A:   True.
+
+
+// get, delete and save Data with Services
+1Q:   In JavaScript, promises are a way to manage data requested asynchronously.
+1A:   True.
+
+2Q:   The $http.get method can take a callback as a parameter.
+2A:   False.
+
+3Q:   The ng-repeat directive gives you access to the position of the current element in the array through the ________ variable.
+3A:   $index
+
+4Q:   The $http provider can be used to _______.
+4A:   get data from any url.
+
+5Q:   The $http.get method returns a _________.
+5A:   promise.
