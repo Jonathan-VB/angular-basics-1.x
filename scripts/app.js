@@ -12,6 +12,16 @@ angular.module("todoListApp", [])
     $scope.todos = response.data;
   });
 
+  // Fire deleteTodo() on the service in the callback.
+  $scope.deleteTodo = function(todo, $index) {
+    dataService.deleteTodo(todo);
+    $scope.todos.splice($index, 1);
+  };
+
+  $scope.saveTodo = function(todo) {
+    dataService.saveTodo(todo);
+  };
+
   $scope.learningNgChange = function() {
     console.log("An input changed!");
   };
@@ -23,8 +33,19 @@ angular.module("todoListApp", [])
     console.log("This is the hello console service!");
   };
 
+  // Get Todos
   this.getTodos = function(callback) {
     $http.get('mock/todos.json')
     .then(callback)
-  }
+  };
+
+  // Delete Todo
+  this.deleteTodo = function(todo) {
+    console.log("The " + todo.name + " todo has been deleted.");
+    // Database login goes here...
+  };
+
+  this.saveTodo = function(todo) {
+    console.log("The " + todo.name + " todo has been saved!");
+  };
 });
