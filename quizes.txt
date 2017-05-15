@@ -117,3 +117,17 @@
 
 5Q:   The $http.get method returns a _________.
 5A:   promise.
+
+
+// Scaffolding & Filters Quiz
+1Q:   As a developer it is important to...
+1A:   Stay organized, while you move fast and experiment!
+
+2Q:   Which of the following is a built in filter?
+2A:   orderBy.
+
+3Q:   With the `orderBy` filter `undefined` and `false` values are considered the same.
+3A:   False
+
+4Q:   The `orderBy` filter takes the _______ flag as a boolean parameter. e.g. `orderby | foo | true or false`
+4A:   reverse.
