@@ -24,8 +24,9 @@ angular.module('todoListApp')
     dataService.saveTodo(todo);
   };
 
+  // Pull puts items at bottom of the list, unshift puts items at the top.
   $scope.addTodo = function() {
     var todo = {name: "This is a new todo."};
-    $scope.todos.push(todo);
+    $scope.todos.unshift(todo);
   };
 }) // end controller
