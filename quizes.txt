@@ -131,3 +131,20 @@
 
 4Q:   The `orderBy` filter takes the _______ flag as a boolean parameter. e.g. `orderby | foo | true or false`
 4A:   reverse.
+
+
+// Custom Directives and Finalising Application
+1Q:   If you completed this course, you should have Angular mastered.
+1A:   False.
+
+2Q:   The Array's _________ method returns a subset of the array based on logic in the callback. For example, `['foo', 'bar', 'yes', 'no'].someMethod(callback)`.
+2A:   Filter.
+
+3Q:   In the object a directive returns, _________ loads an html file as a directive template.
+3A:   'templateUrl'
+
+4Q:   In the object that a directive returns, the _________ key defines a controller to be used.
+4A:   'controller'
+
+5Q:   The first parameter of angular's `directive` method is __________.
+5A:   the name of the directive
